@@ -16,8 +16,13 @@ to add routes with the application, you need to mention the routes name is confi
 ## Add Pages, Or component.
 
 I would suggest you to use generate-react-cli to add a component, There are four types of generate react cli command set by default.
+
 to generate component : npx generate-react-cli component Box
+
 to generate Public Pages : npx generate-react-cli component 404 --type=public-page
+
 to generate component : npx generate-react-cli component Login --type=pre-auth-page
+
 to generate component : npx generate-react-cli component Dashboard --type=post-auth-page
+
 to generate component : npx generate-react-cli component BasicLayout --type=layout
